@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2025 | Pedestrian Heat Stress in Jackson Ward | Jackson Ward Research</title>
+  <meta name="description" content="A 2025 study mapping urban heat heterogeneity and pedestrian heat stress across Richmond's Jackson Ward neighborhood." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Jackson Ward <small>Richmond · Virginia</small></a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Years <span class="caret">&#9662;</span></button>
+          <ul class="dropdown-menu">
+            <li><a href="year-2023.html">2023</a></li>
+            <li><a href="year-2024.html">2024</a></li>
+            <li><a href="year-2025.html">2025</a></li>
+            <li><a href="year-2026.html">2026</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <p><a class="back-link" href="index.html"><span class="arrow" aria-hidden="true">&larr;</span> All years</a></p>
+      <span class="eyebrow">2025 Research Year</span>
+      <h1 class="section-title">Pedestrian Heat Stress in Jackson Ward</h1>
+      <p class="section-intro">Mapping urban heat heterogeneity across one neighborhood, and planting trees to cool its hottest streets.</p>
+
+      <div class="prose">
+        <p>The summer of 2025 was dedicated to studying the heat effects experienced within Jackson Ward. The work was driven by the neighborhood's history: decades of disinvestment shaped by discriminatory redlining and the construction of the Interstate 95/64 corridor, which bisected the community. Jackson Ward has been identified as an urban heat island, an area that runs significantly hotter than its surroundings.</p>
+        <p>Rather than treat the neighborhood as a single hot place, the team set out to study the heat <em>within</em> it, the intra-neighborhood variation that determines how a pedestrian actually experiences the street. To do that, the team measured two things along the sidewalks: <strong>surface temperature (ST)</strong>, using FLIR thermal cameras, and <strong>Wet Bulb Globe Temperature (WBGT)</strong>, a heat-stress index, using Kestrel heat-stress trackers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <span class="eyebrow">The Questions</span>
+      <h2 class="section-title">Research Questions</h2>
+      <ul class="rq-list" style="margin-top:32px">
+        <li><span class="lead">How do intra-neighborhood differences in urban heat manifest in Jackson Ward?</span></li>
+        <li>Which areas of the neighborhood experience relatively higher and lower pedestrian heat stress, as measured by WBGT?</li>
+        <li>What is the impact of structural shade and tree-canopy shade on WBGT and surface temperature on sidewalks?</li>
+        <li>How much does street-level heat stress vary from the public's conventional understanding of heat, which is informed by regional forecasts?</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <span class="eyebrow">How It Was Done</span>
+      <h2 class="section-title">Methodology</h2>
+      <div class="prose">
+        <p>Five students split into teams, each equipped with a FLIR One Edge thermal camera (surface temperature) and a tripod-mounted Kestrel 5400 Heat Stress Tracker (WBGT). Following two pre-planned routes covering the entirety of Jackson Ward, teams stopped every <strong>85 meters</strong> and recorded both measurements, attaching each reading to a mapped point.</p>
+        <p>Collection took place on four days (June 11th, 20th, 21st, and 24th) between 12:00pm and 3:00pm to capture peak heat, with a post-collection time adjustment. The point data was then converted into a continuous surface using the <strong>Inverse Distance Weighting (IDW)</strong> interpolation method across a sidewalk layer, reflecting the idea that nearby points are more similar and producing a neighborhood-wide picture of where the heat concentrates.</p>
+      </div>
+
+      <div class="stats" style="margin-top:36px">
+        <div class="stat"><div class="num">5</div><div class="label">Student researchers</div></div>
+        <div class="stat"><div class="num">85 m</div><div class="label">Between sample stops</div></div>
+        <div class="stat"><div class="num">4</div><div class="label">Collection days</div></div>
+        <div class="stat"><div class="num">2</div><div class="label">Routes covering the ward</div></div>
+      </div>
+
+      <figure class="figure" style="margin-top:40px">
+        <img src="images/2025/routes-layout.png" alt="Map of the two sidewalk data-collection routes across Jackson Ward, shown in blue and green." />
+        <figcaption><strong>Figure 1. Data collection routes.</strong> Two pre-planned routes (shown in blue and green) with target stops every 85 meters, together covering the entirety of Jackson Ward.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <span class="eyebrow">What We Found</span>
+      <h2 class="section-title">Key Findings</h2>
+
+      <div class="prose">
+        <h3>Heat is highly uneven, block to block</h3>
+        <p>No street showed a single uniform heat-threat level on any given day, as many as four different levels were recorded along a single block. WBGT peaked on June 24th, with the majority of the neighborhood falling under a "high" or "extreme" heat designation. Aggregating the data made it possible to identify relative "hot spots" as priority areas for intervention.</p>
+      </div>
+
+      <figure class="figure">
+        <img src="images/2025/wbgt-threshold-guidelines.png" alt="NOAA WBGT guidelines table for the general population, defining low through extreme heat-stress thresholds by U.S. region." />
+        <figcaption><strong>Figure 2. The WBGT threat-level thresholds.</strong> The heat-stress categories used in our maps come from published WBGT guidelines for the general population (Grundstein, Williams, Phan &amp; Cooper, 2015). Jackson Ward sits in Region 3, the warmest of the three U.S. regions, which sets the temperature cutoffs for each threat level from "low" to "extreme."</figcaption>
+      </figure>
+
+      <figure class="figure">
+        <img src="images/2025/threat-level-map.png" alt="Four-panel map showing heat threat levels across Jackson Ward sidewalks on each collection day." />
+        <figcaption><strong>Figure 3. Heat threat levels across Jackson Ward sidewalks.</strong> Each panel is one collection day. Threat levels rise from low (blue) through elevated, moderate, and high to extreme (purple/red). June 24th shows the most widespread severe heat.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <h3>Tree shade cools sidewalks dramatically</h3>
+        <p>A Kruskal-Wallis test with a post-hoc pairwise Wilcoxon comparison (a nonparametric alternative to ANOVA) confirmed that shade type is a statistically significant determinant of sidewalk heat. Surface temperature was higher on unshaded sidewalks than on tree-lined sidewalks by an average of <strong>24.0&deg;F</strong>, and higher than sidewalks with structural shade by 21.7&deg;F. The effect on WBGT was smaller but still significant, about 1.1&deg;F cooler under tree canopy.</p>
+      </div>
+
+      <div class="figure-row">
+        <figure class="figure">
+          <img src="images/2025/surface-temp-by-shade.png" alt="Boxplot of surface temperature by shade type: tree, none, structure." />
+          <figcaption><strong>Figure 4. Surface temperature by shade type.</strong> Tree-shaded sidewalks (median ~98&deg;F) run far cooler than unshaded ones (~122&deg;F).</figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="images/2025/wbgt-by-shade.png" alt="Boxplot of Wet Bulb Globe Temperature by shade type: tree, none, structure." />
+          <figcaption><strong>Figure 5. WBGT by shade type.</strong> Shade type affects WBGT far less than surface temperature, though tree canopy still lowers it by a significant margin.</figcaption>
+        </figure>
+      </div>
+
+      <figure class="figure">
+        <img src="images/2025/wbgt-vs-surface-temp.jpg" alt="Scatterplot of Wet Bulb Globe Temperature versus surface temperature in Jackson Ward." />
+        <figcaption><strong>Figure 6. WBGT vs. surface temperature.</strong> A weak positive relationship (R&sup2; = 0.15), confirming that surface temperature and felt heat stress, while related, capture different aspects of the streetscape.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <h3>Two sidewalks, four blocks apart, worlds apart</h3>
+        <p>The hottest and coolest identified spots both sit on W. Marshall Street, only about four blocks (~0.25 miles) from each other. On average the hottest spot ran <strong>44.7&deg;F hotter in surface temperature</strong> and 2.5&deg;F hotter in WBGT than the coolest, a contrast that tracks directly with the difference in tree canopy between the two locations.</p>
+      </div>
+
+      <div class="figure-row">
+        <figure class="figure">
+          <img src="images/2025/hottest-spot.jpg" alt="The hottest identified sidewalk on W. Marshall Street: open brick paving fully exposed to the sun with no tree canopy." />
+          <figcaption><strong>The hottest spot.</strong> An exposed stretch of W. Marshall Street with no tree canopy and full sun on the brick paving.</figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="images/2025/coolest-spot.jpg" alt="The coolest identified sidewalk on W. Marshall Street: brick paving fully shaded by a row of mature street trees." />
+          <figcaption><strong>The coolest spot.</strong> Just four blocks away on the same street, a sidewalk shaded by a row of mature trees.</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose">
+        <h3>Street-level heat differs from the forecast</h3>
+        <p>Comparing the team's Kestrel readings against the neighborhood weather station, a paired t-test found a statistically significant difference in wet-bulb temperature (standard deviation of the difference: &plusmn;2.8&deg;F; range: 18.5&deg;F). In other words, the heat people feel on the sidewalk can diverge meaningfully from the regional forecast, a disconnect with real public-health implications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <span class="eyebrow">From Data to Action</span>
+      <h2 class="section-title">A Tree-Planting Initiative</h2>
+      <div class="prose">
+        <p>The hot-spot mapping fed directly into an intervention. Working with the City of Richmond's arborist, the team identified empty tree wells in the hottest areas of the neighborhood and selected suitable trees to plant in them. Each tree is paired with a plaque bearing a quote from a notable figure from Jackson Ward, tying the heat-mitigation effort back to the history and culture of the neighborhood it serves. The trees were planted in Fall 2025.</p>
+      </div>
+
+      <div class="figure-row">
+        <figure class="figure">
+          <img src="images/2025/planting-day-tree-plaque.jpg" alt="A newly planted street tree with a plaque quoting Maggie Lena Walker, on a Jackson Ward sidewalk." />
+          <figcaption><strong>Planting day.</strong> A newly planted tree and its plaque, quoting Jackson Ward's own Maggie Lena Walker, on a neighborhood sidewalk.</figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="images/2025/planting-day-team.jpg" alt="The research team standing behind a newly planted tree on a Jackson Ward street." />
+          <figcaption><strong>The team on planting day</strong>, November 2025, with one of the newly planted trees.</figcaption>
+        </figure>
+      </div>
+
+      <figure class="figure">
+        <img src="images/2025/tree-planting-sites.png" alt="Map of Jackson Ward marking the five tree-planting sites with star symbols, concentrated along West Marshall and North 2nd Streets, with a zoomed inset of the hottest stretch." />
+        <figcaption><strong>Figure 7. Tree-planting sites.</strong> The five selected planting locations, three Chinese pistache and two star magnolias, set among the neighborhood's existing trees, concentrated on the hottest stretch of West Marshall and North 2nd Streets.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <span class="eyebrow">Conference Presentation</span>
+      <h2 class="section-title">Posters</h2>
+      <p class="section-intro">This work was presented at academic conferences, including a 2025 meeting of the American Association of Geographers.</p>
+
+      <div class="poster">
+        <img src="images/2025/poster-physical-geography.png" alt="Conference poster: Pedestrian Heat Stress: Mapping Urban Heat Heterogeneity in Richmond's Jackson Ward Neighborhood." />
+        <div class="poster-bar">
+          <p><strong>Poster 1: Physical Geography.</strong> Methodology, statistical results, and heat-mapping findings.</p>
+          <a class="btn" href="files/jackson-ward-2025-poster-physical-geography.pdf" target="_blank" rel="noopener">Open full PDF</a>
+        </div>
+      </div>
+
+      <div class="poster" style="margin-top:26px">
+        <img src="images/2025/poster-planting-shade.png" alt="Conference poster: Mapping Heat and Planting Shade — Cooling Historic Jackson Ward." />
+        <div class="poster-bar">
+          <p><strong>Poster 2: Community Impact.</strong> The tree-planting initiative, species selection, and cultural homage.</p>
+          <a class="btn" href="files/jackson-ward-2025-poster-planting-shade.pdf" target="_blank" rel="noopener">Open full PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <span class="eyebrow">The Team</span>
+      <h2 class="section-title">Researchers &amp; Partners</h2>
+      <div class="team" style="margin-top:28px">
+        <div class="team-group">
+          <h4>Student Researchers</h4>
+          <p>Patrick Stapleton · Thuba Mnisi · Julia Weiner · Donovan Murray · Kay Lina</p>
+        </div>
+        <div class="team-group">
+          <h4>Faculty &amp; Project Guidance</h4>
+          <p>Kyle Redican · Beth Zizzamia, University of Richmond, Department of Geography, Environment &amp; Sustainability</p>
+        </div>
+        <div class="team-group">
+          <h4>Community Partner</h4>
+          <p>Janis Allen, President of the Historic Jackson Ward Association, for connecting the team with the community and supporting the partnership</p>
+        </div>
+        <div class="team-group">
+          <h4>Support</h4>
+          <p>Funded by the University of Richmond's Department of Geography, Environment &amp; Sustainability and the School of Arts &amp; Sciences</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h4>Jackson Ward Research</h4>
+        <p>A University of Richmond student research project, in partnership with the Historic Jackson Ward Association.</p>
+      </div>
+      <div>
+        <h4>Years</h4>
+        <p><a href="year-2023.html">2023</a> · <a href="year-2024.html">2024</a> · <a href="year-2025.html">2025</a> · <a href="year-2026.html">2026</a></p>
+      </div>
+      <div>
+        <h4>More</h4>
+        <p><a href="https://sal-urichmond.hub.arcgis.com/" target="_blank" rel="noopener">Spatial Analysis Lab &rarr;</a></p>
+      </div>
+      <p class="copyright">&copy; 2026 Spatial Analysis Lab, University of Richmond.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

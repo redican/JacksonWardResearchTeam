@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2023 | Jackson Ward Research</title>
+  <meta name="description" content="2023 research project on Jackson Ward, Richmond, Virginia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Jackson Ward <small>Richmond &middot; Virginia</small></a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Years <span class="caret">&#9662;</span></button>
+          <ul class="dropdown-menu">
+            <li><a href="year-2023.html">2023</a></li>
+            <li><a href="year-2024.html">2024</a></li>
+            <li><a href="year-2025.html">2025</a></li>
+            <li><a href="year-2026.html">2026</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <p><a class="back-link" href="index.html"><span class="arrow" aria-hidden="true">&larr;</span> All years</a></p>
+      <span class="eyebrow">2023 Research Year</span>
+      <h1 class="section-title">Finding Home: Mapping the Displaced</h1>
+      <p class="section-intro">An interactive tool built on 1950 census records, made to help residents trace the families and neighbors who were pushed out of Jackson Ward when the highway came through.</p>
+
+      <div class="prose">
+        <p>When Interstate 95/64 was cut through Jackson Ward in the late 1950s, it severed the neighborhood and forced countless families out of homes that had anchored the community for generations. Much of that history lives only in memory, and the people who were relocated are increasingly hard to trace.</p>
+        <p>The 2023 project set out to make that history searchable. The team built a usable map application filled with 1950 census data so that locals can locate their own family members, or the people and neighbors they once knew, who were relocated or pushed out by the highway's construction. By tying census records to specific places on the map, the app turns a dataset into a tool for reconnection, helping the community recover a record of who lived where before the neighborhood was divided.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <span class="eyebrow">Interactive Map</span>
+      <h2 class="section-title">Explore the Project</h2>
+      <p class="section-intro">Pan, zoom, and use the sidebar to move through the 2023 work. The app opens full-screen in a new tab as well.</p>
+
+      <div class="embed" style="max-width:1100px; margin-top:28px;">
+        <div class="embed-frame" style="aspect-ratio:16/11; min-height:640px;">
+          <iframe
+            src="https://urichmond.maps.arcgis.com/apps/instant/sidebar/index.html?appid=172234c100c248de9a9487a5105eedb9"
+            title="Jackson Ward 2023 interactive map application"
+            allowfullscreen
+            allow="fullscreen; geolocation"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <p style="margin-top:14px; text-align:center;">
+          <a class="btn" href="https://urichmond.maps.arcgis.com/apps/instant/sidebar/index.html?appid=172234c100c248de9a9487a5105eedb9" target="_blank" rel="noopener">Open the app full screen &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h4>Jackson Ward Research</h4>
+        <p>Documenting the history of Richmond's historic Jackson Ward.</p>
+      </div>
+      <div>
+        <h4>Years</h4>
+        <p><a href="year-2023.html">2023</a> &middot; <a href="year-2024.html">2024</a> &middot; <a href="year-2025.html">2025</a> &middot; <a href="year-2026.html">2026</a></p>
+      </div>
+      <div>
+        <h4>More</h4>
+        <p><a href="https://sal-urichmond.hub.arcgis.com/" target="_blank" rel="noopener">Spatial Analysis Lab &rarr;</a></p>
+      </div>
+      <p class="copyright">&copy; 2026 Spatial Analysis Lab, University of Richmond.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
