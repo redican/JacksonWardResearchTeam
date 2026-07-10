@@ -106,7 +106,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   transition: background 0.2s, color 0.2s;
 }
-.nav-links a:hover { background: var(--cream); color: var(--brick-dark); text-decoration: none; }
+.nav-links a:hover { background: transparent; color: var(--brass-light); text-decoration: none; }
 .nav-links a.active { background: var(--brass); color: var(--brick-dark); font-weight: 600; }
 
 .nav-toggle {
@@ -136,7 +136,7 @@ img { max-width: 100%; display: block; }
   gap: 6px;
   transition: background 0.2s, color 0.2s;
 }
-.dropdown-toggle:hover { background: var(--cream); color: var(--brick-dark); }
+.dropdown-toggle:hover { background: transparent; color: var(--brass-light); }
 .dropdown-toggle .caret { font-size: 0.9em; display: inline-block; transform: scaleX(1.5); transition: transform 0.2s; }
 .dropdown.open .dropdown-toggle .caret { transform: rotate(180deg) scaleX(1.5); }
 .dropdown.active-parent .dropdown-toggle { background: var(--brass); color: var(--brick-dark); font-weight: 600; }
